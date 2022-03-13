@@ -21,5 +21,7 @@ from . import views
 urlpatterns = [
     path('', homeview, name='home'),
     path('clienthome/', clienthome),
+    path('fuelQuote/', fuelQuote),
+    
     
 ]
