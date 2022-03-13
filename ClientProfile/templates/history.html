@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% load static %}
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta >
+	<link rel="stylesheet" href= {% static "https://fonts.googleapis.com/css?family=Font+Name" %}>
+	<link rel="stylesheet" type="text/css" href= {% static "fuelquote_history.css" %}>
+	<title>Project ROU</title>
+</head>
+
+
+<body>
+
+<header>
+
+	<div id="top-bar" class="container has-two-col">
+
+		<h1>
+			<a href="#">
+				<img src="image/logo rou.png">
+			</a>
+		</h1>
+
+		<!-- ------------------------------------ -->
+
+		<div class="inline">
+
+			<ul id="menu" class="inline-list">
+				<li><a href="#">Fuel Quote</a></li>
+				<li><a href="#">My Profile</a></li>
+				<li><a href="#">Logout</a></li>
+
+			</ul>
+
+			<ul id="social">
+				<li><a href="#"><img src="image/social/fb.png"></a></li>
+				<li><a href="#"><img src="image/social/tw.png"></a></li>
+				<li><a href="#"><img src="image/social/youtube.png"></a></li>
+				<li><a href="#"><img src="image/social/instagram.png"></a></li>
+			</ul>
+
+		</div>
+
+	</div>
+
+	<!-- ----------------------Fuel Quote------------------------ -->
+
+	<div id="hero" class="container">
+
+		<div id="fuel">
+
+			<form id="fuel-form">
+
+				<div id="form-name">
+					<h2>Fuel Quote History </h2>
+				</div>
+
+				<div id="information">
+				<table>
+					<thead>
+						<tr>
+							<th scope = "col" class = "customer">Customer Name </th>
+							<th scope = "col" class = "gallon">Gallons </th>
+							<th scope = "col" class = "Delivery">Delivery Address</th>
+							<th scope = "col" class = "date">Delivery Date </th>
+							<th scope = "col" class = "price">Suggested Price</th>
+							<th scope = "col" class = "amount">Total Amount Due </th>
+						</tr>
+					</thead>	
+					<tbody>
+						<tr>
+							<th scope = "row" class = "name">Khai Luong </th>
+							<td>15</td>
+							<td>206000 Northwest Fwy, Houston, Tx 77065</td>
+							<td>01/02/2022</td>
+							<td class = "dollar">2.89$</td>
+							<td>43.35$</td>
+						</tr>
+						<tr>
+							<th scope = "row" class = "name">Thanh Vu</th>
+							<td>12</td>
+							<td>206000 Northwest Fwy, Houston, Tx 77065</td>
+							<td>01/03/2022</td>
+							<td>2.89$</td>
+							<td>34.68$</td>
+						</tr>
+						<tr>
+							<th scope = "row" class = "name">Sajah Al Zamilli</th>
+							<td>14</td>
+							<td>206000 Northwest Fwy, Houston, Tx 77065</td>
+							<td>01/07/2022</td>
+							<td>3.19$</td>
+							<td>44.16$</td>
+						</tr>
+						<tr>
+							<th scope = "row" class = "name">Tom Cruise </th>
+							<td>10</td>
+							<td>206000 Northwest Fwy, Houston, Tx 77065</td>
+							<td>02/02/2022</td>
+							<td>3.29$</td>
+							<td>32.09$</td>
+						</tr>
+						<tr>
+							<th scope = "row" class = "name">Tom Holland </th>
+							<td>26</td>
+							<td>206000 Northwest Fwy, Houston, Tx 77065</td>
+							<td>02/09/2022</td>
+							<td>3.29$</td>
+							<td>85.54$</td>
+						</tr>
+						<tr>
+							<th scope = "row" class = "name">Maria Pham </th>
+							<td>17</td>
+							<td>206000 Northwest Fwy, Houston, Tx 77065</td>
+							<td>02/10/2022</td>
+							<td>3.29$</td>
+							<td>54.04$</td>
+						</tr>
+						<tr>
+							<th scope = "row" class = "name">Nicolas Cage  </th>
+							<td>19</td>
+							<td>206000 Northwest Fwy, Houston, Tx 77065</td>
+							<td>02/12/2022</td>
+							<td>3.19$</td>
+							<td>60.61$</td>
+						</tr>
+					</tbody>
+
+               	 </table>
+				</div>
+	
+			</form>
+
+
+		</div>
+
+
+	</div>	
+
+</header>
+
+
+
+<!-- ------------------------------------------------------------------ -->
+
+<footer>
+	<div id='footer-wraper' class="container">
+
+		<div id="subcribe">
+			<h1>
+
+				<img src="image/logo rou.png">
+			</h1>
+
+			<p>Fectetur adipisicing elit, sed do eius mod tempor Lorem ipsum dolor sit amet, con sectetur adipisicing elitt ut labore.</p>
+		</div>
+
+		<div id="about">
+			<h2>About</h2>
+			<ul>
+				<li><a href="#">Abou Us</a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Our Story</a></li>
+				<li><a href="#">Success</a></li>
+				<li><a href="#">Support</a></li>
+			</ul>
+		</div>
+
+		<div id="service">
+			<h2>Service</h2>
+			<ul>
+				<li><a href="#">Development</a></li>
+				<li><a href="#">Maintanance</a></li>
+				<li><a href="#">Consultancy</a></li>
+				<li><a href="#">Design</a></li>
+			</ul>
+		</div>
+
+		<div id="get-in-touch">
+			<h2>Get in Touch</h2>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="image/footer/address.png">
+						<span id='content1'>University of Houston</span>
+						<span id='content2'>Houston, Texas 77204</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/footer/mail.png">uh@cougarnet.uh.edu
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/footer/phone.png">(713) 743-2255
+					</a>
+				</li>
+
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="follow-us" class="container inline">
+		<h2>Follow Us</h2>
+		<ul id="social">
+				<li><a href="#"><img src="image/social/fb.png"></a></li>
+				<li><a href="#"><img src="image/social/tw.png"></a></li>
+				<li><a href="#"><img src="image/social/youtube.png"></a></li>
+				<li><a href="#"><img src="image/social/instagram.png"></a></li>
+		</ul>
+	</div>
+</footer>
+
+
+</body>
+</html>

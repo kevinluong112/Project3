@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% load static %}
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta >
+	<link rel="stylesheet" href= {% static "https://fonts.googleapis.com/css?family=Font+Name" %}>
+	<link rel="stylesheet" type=  "text/css" href= {% static "profile.css" %} >
+	<title>Project ROU</title>
+</head>
+<body>
+
+<div id="top">
+
+	<header id="top-bar" class="container has-two-col">
+
+		<h1>
+			<a href="#">
+				<img src="image/logo rou.png">
+			</a>
+		</h1>
+
+		<!-- ------------------------------------ -->
+
+		<div class="inline">
+
+			<ul id="menu" class="inline-list">
+				<li><a href="#">Fuel Quote</a></li>
+				<li><a href="#">My Profile</a></li>
+				<li><a href="#">Logout</a></li>
+
+			</ul>
+
+			<ul id="social">
+				<li><a href="#"><img src="image/social/fb.png"></a></li>
+				<li><a href="#"><img src="image/social/tw.png"></a></li>
+				<li><a href="#"><img src="image/social/youtube.png"></a></li>
+				<li><a href="#"><img src="image/social/instagram.png"></a></li>
+			</ul>
+
+		</div>
+
+	</header>
+
+	<!-- ---------------------------------------------- -->
+
+	<div id="hero" class="container">
+
+		<div id="profile">
+
+			<form id="profile-form">
+
+				<div id="form-name">
+					<h2>Update Information</h2>
+				</div>
+
+				<div id="information">
+
+					<div id="name">
+						<label>Full Name</label>
+						<input type="text" id="name" name="" placeholder="Enter Name" required>
+					</div>
+
+					<div id="address1">
+						<label>Address 1</label>
+						<input type="text" id="adress1" name="" placeholder="Enter Address 1" required>
+					</div>
+
+					<div id="address2">
+						<label>Address 2</label>
+						<input type="text" id="adress2" name="" placeholder="Enter Address 2">
+					</div>
+
+					<div id="city-state-zip">
+
+						<div id="city">
+							<label>City</label>
+							<input type="text" id="city" name="" placeholder="Enter City" required>
+						</div>
+
+						<div id="state">
+							<label>State</label>
+							<select id="state" name="" >
+								<option selected>Choose...</option>
+      							<option>AA</option>
+      							<option>AE</option>
+      							<option>Ak</option>
+      							<option>AL</option>
+      							<option>AP</option>
+      							<option>AR</option>
+      							<option>AZ</option>
+      							<option>CA</option>
+      							<option>CO</option>
+      							<option>CT</option>
+      							<option>DC</option>
+      							<option>DE</option>
+      							<option>FL</option>
+      							<option>GA</option>
+							</select>
+						</div>
+
+						<div id="zipcode">
+							<label>Zip code</label>
+							<input type="text" id="zipcode" name="" placeholder="Enter Zip code" minlength="5" maxlength="5" required>
+						</div>
+						
+					</div>
+
+					<div id="profile-submit">
+						<button type="submit">Submit</button>
+					</div>
+
+
+				</div>
+	
+			</form>
+
+
+		</div>
+
+
+	</div>	
+
+</div>
+
+<!-- ---------------------------------------------- -->
+
+<footer>
+	<div id='footer-wraper' class="container">
+
+		<div id="subcribe">
+			<h1>
+
+				<img src="image/logo rou.png">
+			</h1>
+
+			<p>Fectetur adipisicing elit, sed do eius mod tempor Lorem ipsum dolor sit amet, con sectetur adipisicing elitt ut labore.</p>
+		</div>
+
+		<div id="about">
+			<h2>About</h2>
+			<ul>
+				<li><a href="#">Abou Us</a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Our Story</a></li>
+				<li><a href="#">Success</a></li>
+				<li><a href="#">Support</a></li>
+			</ul>
+		</div>
+
+		<div id="service">
+			<h2>Service</h2>
+			<ul>
+				<li><a href="#">Development</a></li>
+				<li><a href="#">Maintanance</a></li>
+				<li><a href="#">Consultancy</a></li>
+				<li><a href="#">Design</a></li>
+			</ul>
+		</div>
+
+		<div id="get-in-touch">
+			<h2>Get in Touch</h2>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="image/footer/address.png">
+						<span id='content1'>University of Houston</span>
+						<span id='content2'>Houston, Texas 77204</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/footer/mail.png">uh@cougarnet.uh.edu
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/footer/phone.png">(713) 743-2255
+					</a>
+				</li>
+
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="follow-us" class="container inline">
+		<h2>Follow Us</h2>
+		<ul id="social">
+				<li><a href="#"><img src="image/social/fb.png"></a></li>
+				<li><a href="#"><img src="image/social/tw.png"></a></li>
+				<li><a href="#"><img src="image/social/youtube.png"></a></li>
+				<li><a href="#"><img src="image/social/instagram.png"></a></li>
+		</ul>
+	</div>
+</footer>
+
+
+</body>
+</html>
